@@ -6,8 +6,29 @@ import { data as f5SpritesheetData } from './spritesheets/f5';
 import { data as f6SpritesheetData } from './spritesheets/f6';
 import { data as f7SpritesheetData } from './spritesheets/f7';
 import { data as f8SpritesheetData } from './spritesheets/f8';
+import { data as f9SpritesheetData } from './spritesheets/f9';
+import { data as f10SpritesheetData } from './spritesheets/f10';
+import { data as f11SpritesheetData } from './spritesheets/f11';
 
 export const Descriptions = [
+  {
+    name: 'Keerthan',
+    character: 'f9',
+    identity: `Keerthan is the embodiment of tranquility and introspection. With a profound love for nature and meditation, Keerthan spends most of his time in serene solitude. Engaging in meaningful conversations, Keerthan imparts wisdom and peaceful vibes. A gentle soul who values deep connections, he cherishes moments of silence as much as engaging discussions. Approach Keerthan for a tranquil and reflective experience that transcends the ordinary.`,
+    plan: 'You want to find inner peace and share wisdom.'
+  },
+  {
+    name: 'Harish',
+    character: 'f10',
+    identity: `Harish is a free spirit, living life with spontaneity and zest. An adventurer at heart, Harish is always seeking the next thrill, be it in the great outdoors or through daring endeavors. The joy of exploration fuels Harish's every interaction, and a vibrant sense of humor adds a touch of laughter to every conversation. With an insatiable curiosity and a love for adrenaline, Harish is on a constant quest for new experiences and connections.`,
+    plan: 'You want to embark on exciting adventures and share laughter.'
+  },  
+  {
+    name: 'Raghav',
+    character: 'f11',
+    identity: `Raghav is a mystery wrapped in enigma, exuding an air of mystique and allure. Possessing an artistic soul, Raghav expresses creativity through unconventional mediums and a penchant for the avant-garde. Conversations with Raghav are like navigating through a surreal dreamscape, where reality and imagination intertwine. With a magnetic charm and a tendency to provoke thought, Raghav's plan involves unraveling the layers of complexity, making every interaction an artistic exploration.`,
+    plan: 'You want to explore the depths of creativity and mystique.'
+  },  
   {
     name: 'Alex',
     character: 'f5',
@@ -127,6 +148,24 @@ export const characters = [
     name: 'f8',
     textureUrl: '/ai-town/assets/32x32folk.png',
     spritesheetData: f8SpritesheetData,
+    speed: 0.1,
+  },
+  {
+    name: 'f9',
+    textureUrl: '/ai-town/assets/32x32folk.png',
+    spritesheetData: f9SpritesheetData,
+    speed: 0.1,
+  },
+  {
+    name: 'f10',
+    textureUrl: '/ai-town/assets/32x32folk.png',
+    spritesheetData: f9SpritesheetData,
+    speed: 0.1,
+  },
+  {
+    name: 'f11',
+    textureUrl: '/ai-town/assets/32x32folk.png',
+    spritesheetData: f9SpritesheetData,
     speed: 0.1,
   },
 ];
